@@ -6,6 +6,4 @@ environmentType: non-prod
 paypalUrl: "preprod.paypal.com"
 dbUser: "non-prod-user"
 dbPassword: "non-prod-password"
-
-
-
+cacheSize: 8192kb
