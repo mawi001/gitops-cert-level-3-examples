@@ -30,6 +30,7 @@ spec:
             - $values/helm-multi-source/my-values/env-type/{{.type}}-values.yaml
             - $values/helm-multi-source/my-values/regions/{{.region}}-values.yaml
             - $values/helm-multi-source/my-values/envs/{{.env}}-values.yaml
+
         - repoURL: 'https://github.com/mawi001/gitops-cert-level-3-examples.git'
           targetRevision: HEAD
           ref: values
